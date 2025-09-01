@@ -43,7 +43,7 @@ The project follows a structured data pipeline, starting from raw data collectio
 
 ### 1. Data Acquisition (Web Scraping)
 
-* **Tool:** A Python script (`webScreening.py`) using the **Selenium** library.
+* **Tool:** A Python script (`[webScreening.py](https://github.com/Jaykishan-Patel/flipkart-smartphone-scraping-and-analysis/blob/main/Scripts/webScreening.py)`) using the **Selenium** library.
 * **Process:**
     * Automated a Chrome browser to navigate to Flipkart's smartphone search results.
     * Systematically iterated through 42 unique pages of listings, handling dynamic page loading.
@@ -51,7 +51,7 @@ The project follows a structured data pipeline, starting from raw data collectio
 
 ### 2. Data Cleaning & Feature Engineering
 
-* **Tools:** **Jupyter Notebook** (`cleanMobileData.ipynb`), **BeautifulSoup**, and **Pandas**.
+* **Tools:** **Jupyter Notebook** (`[cleanMobileData.ipynb](https://github.com/Jaykishan-Patel/flipkart-smartphone-scraping-and-analysis/blob/main/Jupyter_Notebook/cleanMobileData.ipynb)`), **BeautifulSoup**, and **Pandas**.
 * **Process:**
     * The raw HTML file was parsed with BeautifulSoup to extract structured data for each phone (model name, price, ratings, specifications).
     * The extracted data was loaded into a Pandas DataFrame, where extensive cleaning and feature engineering were performed:
@@ -65,7 +65,7 @@ The project follows a structured data pipeline, starting from raw data collectio
 
 ### 3. Exploratory Data Analysis (EDA) & Key Insights
 
-* **Tools:** **Jupyter Notebook** (`EDA_on_smartPhone.ipynb`), **Matplotlib**, and **Seaborn**.
+* **Tools:** **Jupyter Notebook** (`[EDA_on_smartPhone.ipynb](https://github.com/Jaykishan-Patel/flipkart-smartphone-scraping-and-analysis/blob/main/Jupyter_Notebook/EDA_on_smartPhone.ipynb)`), **Matplotlib**, and **Seaborn**.
 * **Key Questions Answered:**
     * What is the distribution of smartphone prices?
     * Which brands have the highest market presence on Flipkart?
