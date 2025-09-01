@@ -19,7 +19,7 @@ The Indian smartphone market is one of the most dynamic and competitive in the w
 
 The final output is a dynamic Power BI dashboard that consolidates all findings. It allows users to filter by brand, price range, and features to explore the dataset and gain a holistic view of the market landscape.
 
-![Power BI Dashboard Snapshot](<img width="967" height="546" alt="Image" src="https://github.com/user-attachments/assets/39743069-fff0-40d3-a379-7e6a200ff80b" />)
+<img width="967" height="546" alt="Image" src="https://github.com/user-attachments/assets/39743069-fff0-40d3-a379-7e6a200ff80b" />
 
 ---
 
